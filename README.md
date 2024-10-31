@@ -22,18 +22,18 @@ This repository contains a shell script that automates the process of updating t
 2. **Navigate to the Script Directory**:  
    Change to the directory where the script is located:
 
-   ```bash:`
+   ```bash:```
    cd /path/to/your/script
 
 
 ## Make the Script Executable:
 If not already executable, set the execute permission:
 
-```bash`
+```bash```
 chmod +x update_script.sh
 
 
-** Run the Script **:
+**Run the Script**:
 Execute the script with elevated privileges:
 ```bash:`
 sudo ./update_script.sh
