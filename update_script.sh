@@ -1,6 +1,8 @@
 #!/bin/bash
 ##Mohammed ELABDALLAH
 ##31/09/2024
+
+
 # Définir le fichier de log
 LOGFILE="/var/log/update_script.log"
 
