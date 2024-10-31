@@ -29,8 +29,8 @@ This repository contains a shell script that automates the process of updating t
 ## Make the Script Executable:
 If not already executable, set the execute permission:
 
-```bash
-chmod +x update_script.sh```
+```bash`
+chmod +x update_script.sh
 
 
 ** Run the Script **:
@@ -45,8 +45,23 @@ After running the script, check the log file (e.g., update_log.txt) for details 
 You can automate the execution of this script by scheduling it to run at specific intervals using cron:
 
 **1.Open the cron editor:**
-```bash
+```bash`
 crontab -e
-```
+
+**2.Add a new line to schedule the script (e.g., daily at 2 AM):**
+0 2 * * * /path/to/your/script/update_script.sh >> /path/to/your/script/update_log.txt 2>&1
+
+**3.Save and exit the editor. The script will now run automatically as scheduled.**
+
+## Logging
+The script generates a log file that records:
+
+-The date and time of each update attempt.
+-The updates that were installed.
+-Any errors that occurred during the update process.
+You can find the log file in the same directory as the script.
+
+
+
 
 
