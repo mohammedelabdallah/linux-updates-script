@@ -22,24 +22,31 @@ This repository contains a shell script that automates the process of updating t
 2. **Navigate to the Script Directory**:  
    Change to the directory where the script is located:
 
-   ```bash:```
+   ```bash:`
    cd /path/to/your/script
 
 
 ## Make the Script Executable:
 If not already executable, set the execute permission:
 
-```bash```
-chmod +x update_script.sh
+```bash
+chmod +x update_script.sh```
 
 
 ** Run the Script **:
 Execute the script with elevated privileges:
-```bash
+```bash:`
 sudo ./update_script.sh
 
 ## Check the Log File:
 After running the script, check the log file (e.g., update_log.txt) for details on the updates installed and any errors that may have occurred.
 
 ## Scheduling the Script:
+You can automate the execution of this script by scheduling it to run at specific intervals using cron:
+
+**1.Open the cron editor:**
+```bash
+crontab -e
+```
+
 
