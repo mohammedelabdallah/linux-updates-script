@@ -45,7 +45,7 @@ After running the script, check the log file (e.g., update_log.txt) for details 
 You can automate the execution of this script by scheduling it to run at specific intervals using cron:
 
 **1.Open the cron editor:**
-```bash`
+```bash:`
 crontab -e
 
 **2.Add a new line to schedule the script (e.g., daily at 2 AM):**
